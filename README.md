@@ -58,7 +58,7 @@ alter publication supabase_realtime add table bookmarks;
     ```bash
     npm run dev
     ```
-5.  Open [http://localhost:3000](http://localhost:3000) in your browser.
+5.  Open [https://smart-bookmark-app-fawn.vercel.app/](http://localhost:3000) in your browser.
 
 ## 📜 License
 
