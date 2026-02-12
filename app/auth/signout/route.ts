@@ -6,6 +6,10 @@ import { redirect } from 'next/navigation'
 export async function POST(request: Request) {
     const supabase = await createClient()
 
+    if (!supabase) {
+        return redirect('/')
+    }
+
     // Check if a user's logged in
     const {
         data: { user },
