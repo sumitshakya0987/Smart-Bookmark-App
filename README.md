@@ -59,7 +59,3 @@ alter publication supabase_realtime add table bookmarks;
     npm run dev
     ```
 5.  Open [Deployment](https://smart-bookmark-app-fawn.vercel.app/) in your browser.
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
